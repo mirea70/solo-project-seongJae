@@ -34,7 +34,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static api.v1.util.ApiDocumentUtils.*;
 
 @WebMvcTest(Bz_Controller.class)
-@MockBean(JpaMetamodelMappingContext.class)
+//@MockBean(JpaMetamodelMappingContext.class)
 @AutoConfigureRestDocs
 public class Bz_Controller_Test {
     @Autowired
